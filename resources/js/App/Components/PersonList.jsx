@@ -30,11 +30,11 @@ export default class PersonList extends React.Component {
         return (
             <>
                 <h1>Person list</h1>
-                
+
                 {
-                    this.state.people.map(person => {
+                    this.state.people.map(person => (
                         <div className="person">{ person.name }</div>
-                    })
+                    ))
                 }
             </>
         )

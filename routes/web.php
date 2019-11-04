@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//this is for register contoller
+//auth folder full of controllers for authentication
+Auth::routes();
